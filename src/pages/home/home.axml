@@ -1,0 +1,18 @@
+<view class="container count">
+  <avatar />
+  <text class="count-text">{{count}}%</text>
+  <button
+    class="count-button"
+    onTap="plus"
+    type="primary"
+  >
+    Plus
+  </button>
+  <button
+    class="count-button"
+    onTap="minus"
+    type="primary"
+  >
+    Minus
+  </button>
+</view>  

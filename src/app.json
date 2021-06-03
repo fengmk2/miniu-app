@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/home/home"
+  ],
+  "window": {
+    "defaultTitle": "MiniU App",
+    "titleBarColor": "#323239"
+  }
+}

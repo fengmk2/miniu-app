@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "target": "ES5",
+    "outDir": "dist",
+    "rootDir": "src",
+    "allowJs": false,
+    "experimentalDecorators": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "removeComments": true,
+    "pretty": true,
+    "strictPropertyInitialization": true,
+    "lib": ["ES5", "DOM", "ES2015"],
+    "types": [
+      "mini-types",
+      "./typings"
+    ]
+  },
+  "include": [
+    "./**/*.ts",
+  ],
+  "exclude": [
+    ".miniu"
+  ]
+}

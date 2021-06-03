@@ -1,0 +1,8 @@
+{
+  "exclude": [
+    ".miniu/**",
+    "miniu_dist/**"
+  ],
+  "component2": true,
+  "miniprogramRoot": "dist"
+}
